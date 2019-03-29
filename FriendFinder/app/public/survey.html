@@ -208,7 +208,6 @@
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">×</button>
                     <h2 class="modal-title"><strong>Best Match</strong></h2>
                 </div>
                 <div class="modal-body">
@@ -241,15 +240,8 @@
         }
 
         .chosen-select {
-            max-width: 145px;
-            /* position: relative; */
-            /* width:fit-content; */
+            width: 13%;
         }
-
-        /* option {
-            max-width: 30px;
-            /* width:fit-content; */
-        /* } */
 
         h3 {
             text-transform: uppercase;
@@ -262,7 +254,7 @@
         }
 
         #submit {
-            width: 25%;
+            width: 20%;
         }
     </style>
 
@@ -322,7 +314,7 @@
             }
 
             // If all required fields are filled
-            if (!validateForm()) {
+            if (validateForm()) {
                 // Create an object for the user"s data
                 var userData = {
                     name: $("#name").val(),
@@ -342,11 +334,7 @@
                 };
 
                 // AJAX post the data to the friends API.
-                $.ajax({
-                    method: "POST",
-                    url: "/api/friends",
-                    data: userData
-                }, function(data) {
+                $.post("/api/friends", userData, function(data) {
 
                     // Grab the result from the AJAX post so that the best match's name and photo are displayed.
                     $("#match-name").text(data.name);

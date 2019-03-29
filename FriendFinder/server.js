@@ -6,6 +6,7 @@ var path = require("path");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static("public"));
 
 // var route = require('./routing/')
 

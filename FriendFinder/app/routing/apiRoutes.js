@@ -26,7 +26,7 @@ module.exports = function (app) {
         for (var i = 0; i < friends.length; i++) {
             var totalDifference = 0;
             for (var j = 0; j < friends[i].scores.length; j++) {
-                var difference = Math.abs(user.scores[j] - friends[i].scores[j]);
+                var difference = Math.abs(userInput.scores[j] - friends[i].scores[j]);
                 totalDifference += difference;
             }
 
@@ -36,7 +36,7 @@ module.exports = function (app) {
             }
         }
 
-        friends.push(user);
+        friends.push(userInput);
 
         // send back to browser the best friend match
         res.json(friends[bestFriendIndex]);
