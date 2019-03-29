@@ -12,17 +12,15 @@ module.exports = function (app) {
 
         var userInput = req.body;
 
+        var bestFriendIndex = 0;
+        var minimumDifference = 40;
+
         console.log(userInput);
 
         for (var i = 0; i < userInput.scores.length; i++) {
             userInput.scores[i] = parseInt(userInput.scores[i]);
         }
 
-        var bestFriendIndex = 0;
-        var minimumDifference = 40;
-
-        // in this for-loop, start off with a zero difference and compare the user and the ith friend scores, one set at a time
-        //  whatever the difference is, add to the total difference
         for (var i = 0; i < friends.length; i++) {
             var totalDifference = 0;
             for (var j = 0; j < friends[i].scores.length; j++) {
