@@ -34,7 +34,7 @@ var friendsArray = [
     },
     {
         name: "Kramer",
-        photo: "../kramer.jpg",
+        photo: "../images/kramer.jpg",
         scores: [
             2,
             1,
@@ -50,7 +50,7 @@ var friendsArray = [
     },
     {
         name: "Jessica",
-        photo: "../jessica.jpg",
+        photo: "../images/jessica.jpg",
         scores: [
             1,
             1,
@@ -66,7 +66,7 @@ var friendsArray = [
     },
     {
         name: "Charlie",
-        photo: "../charlie.jpg",
+        photo: "../images/charlie.jpg",
         scores: [
             3,
             3,
@@ -82,7 +82,7 @@ var friendsArray = [
     },
     {
         name: "Serena",
-        photo: "../serena.jpg",
+        photo: "../images/serena.jpg",
         scores: [
             2,
             3,
@@ -98,7 +98,7 @@ var friendsArray = [
     },
     {
         name: "Blake",
-        photo: "../blake.jpg",
+        photo: "../images/blake.jpg",
         scores: [
             3,
             3,
@@ -114,7 +114,7 @@ var friendsArray = [
     },
     {
         name: "Liz",
-        photo: "../liz.jpg",
+        photo: "../images/liz.jpg",
         scores: [
             3,
             2,
@@ -130,7 +130,7 @@ var friendsArray = [
     },
     {
         name: "Chris",
-        photo: "../chris.jpg",
+        photo: "../images/chris.jpg",
         scores: [
             1,
             3,
@@ -146,7 +146,7 @@ var friendsArray = [
     },
     {
         name: "Karen",
-        photo: "../karen.jpg",
+        photo: "../images/karen.jpg",
         scores: [
             2,
             2,
@@ -162,7 +162,7 @@ var friendsArray = [
     },
     {
         name: "Chuck",
-        photo: "../chuck.jpg",
+        photo: "../images/chuck.jpg",
         scores: [
             2,
             3,
@@ -178,7 +178,7 @@ var friendsArray = [
     },
     {
         name: "Olivia",
-        photo: "../olivia.jpg",
+        photo: "../images/olivia.jpg",
         scores: [
             1,
             2,
@@ -194,7 +194,7 @@ var friendsArray = [
     },
     {
         name: "Barney",
-        photo: "../barney.jpg",
+        photo: "../images/barney.jpg",
         scores: [
             2,
             2,
@@ -210,7 +210,7 @@ var friendsArray = [
     },
     {
         name: "Rory",
-        photo: "../rory.jpg",
+        photo: "../images/rory.jpg",
         scores: [
             1,
             3,
