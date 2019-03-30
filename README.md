@@ -8,7 +8,7 @@ Friend Finder is a compatibility-based "FriendFinder" application -- basically a
 
 ## Sample View
 
-![Friend Finder Screenshot](../../images/screenshot-01.jpg)
+![Friend Finder Screenshot](../public/images/screenshot-01.jpg)
 
 ## Technology
 
